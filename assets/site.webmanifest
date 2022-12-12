@@ -3,31 +3,31 @@
     "short_name": "Manifiesto",
     "description": "Never enough...",
     "display": "standalone",
-    "start_url": "/westerlies/",
-    "id": "/westerlies/",
+    "start_url": "/",
+    "id": "/",
     "theme_color": "#005397",
     "background_color": "#ffffff",
     "orientation": "portrait",
     "icons": [
         {
-            "src": "/westerlies/assets/img/maskable_icon_x192.png",
+            "src": "img/maskable_icon_x192.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "maskable"
         },
         {
-            "src": "/westerlies/assets/img/maskable_icon_x512.png",
+            "src": "img/maskable_icon_x512.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "maskable"
         },
         {
-          "src": "/westerlies/assets/img/maskable_icon_x192.png",
+          "src": "img/maskable_icon_x192.png",
           "sizes": "192x192",
           "type": "image/png"
       },
       {
-          "src": "/westerlies/assets/img/maskable_icon_x512.png",
+          "src": "img/maskable_icon_x512.png",
           "sizes": "512x512",
           "type": "image/png"
       }
