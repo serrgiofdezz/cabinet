@@ -28,7 +28,7 @@ a:active {
 a:visited {
   color: #6D7F9A;
 }
-a:hover {
+a:link:hover {
   color: #D7DADF;
 }
 
@@ -58,7 +58,7 @@ li {
    a:visited {
      color: #768289;
    }
-   a:hover {
+   a:link:hover {
      color: #505050;
    }
 

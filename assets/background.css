@@ -2,15 +2,15 @@
 
 body {
   /* Custom background */
-  background-image: url('bck_light.svg');
+  background-image: url('img/bck_light.svg');
   background-repeat: repeat;
   background-size: 100%;
 }
 
 /*** Dark Mode ***/
 @media (prefers-color-scheme: dark) {
-   body {     
+   body {
      /* Custom background */
-     background-image: url('bck_dark.svg');
+     background-image: url('img/bck_dark.svg');
    }
  }
