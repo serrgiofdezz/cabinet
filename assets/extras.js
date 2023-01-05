@@ -1,5 +1,6 @@
+// Copyright C 2023 Sergio Fernández
+
 let date1 = new Date('01/04/2023');
-// To-Do: Change this date to '01/05/2023'
 let today = new Date();
 
 // console.log("Today is", today);
