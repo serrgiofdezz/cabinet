@@ -1,7 +1,7 @@
-/* Copyright C 2023 BBJProjeK Labs */
+/* Copyirght C 2023 Sergio Fernández */
 
 html {
-  font-size: 100%;
+  font-size: 110%;
   scroll-behavior: smooth;
   word-wrap: break-word;
 }
@@ -11,19 +11,18 @@ body {
   margin: 5%;
 }
 
-h1, h2, h3, h4, a, p {
-  font-family: "Proxima Nova",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+h1,
+h2,
+h3,
+h4,
+a,
+p {
+  font-family: "DM Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   color: #1C1E21;
 }
 
-h1, h2, h3 {
-  color: #1D4F91;
-  margin-top: 2rem;
-  margin-bottom: -0.6rem;
-}
-
-
-a:link, a:active {
+a:link,
+a:active {
   /* color: green; */
 }
 a:visited {
@@ -43,12 +42,13 @@ a:link:hover {
      background-color: #1C1E21;
    }
 
-   h1, h2, h3, h4, a, p {
+   h1,
+   h2,
+   h3,
+   h4,
+   a,
+   p {
      color: #FFFFFF;
-   }
-
-   h1, h2, h3 {
-     color: #6CACE4;
    }
 
    a:visited {

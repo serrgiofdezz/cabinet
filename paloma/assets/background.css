@@ -2,7 +2,7 @@
 
 body {
   /* Custom background */
-  background-image: url('img/bckC_light.svg');
+  background-image: url('/img/bck_light.svg');
   background-repeat: repeat;
   background-size: 100%;
 }
@@ -11,6 +11,6 @@ body {
 @media (prefers-color-scheme: dark) {
    body {
      /* Custom background */
-     background-image: url('img/bckC_dark.svg');
+     background-image: url('/img/bck_dark.svg');
    }
  }
