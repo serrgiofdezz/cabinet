@@ -1,7 +1,7 @@
 {
-    "name": "Manifiesto Delirista",
-    "short_name": "Manifiesto",
-    "description": "Never enough...",
+    "name": "Personal Cabinet",
+    "short_name": "Cabinet",
+    "description": "Sergio's Unorganized Cabinet",
     "display": "standalone",
     "start_url": "/",
     "id": "/",
