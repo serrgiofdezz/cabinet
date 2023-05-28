@@ -46,6 +46,10 @@ header {
   align: right;
 }
 
+.h2o {
+  color: #404040;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -88,7 +92,11 @@ nav a:hover {
    }
 
    h1, h2, h3 {
-     color: #cccccc;
+     color: #CCCCCC;
+   }
+
+   .h2o {
+     color: #CCCCCC;
    }
 
    li {
