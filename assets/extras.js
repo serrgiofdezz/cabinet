@@ -4,7 +4,7 @@ function calculateRemainingTime() {
   var timeDifference = targetDate - currentDate;
 
   if (timeDifference < 0) {
-    document.getElementById("result").innerHTML = "This temp project has been finished. Further information in this page.";
+    document.getElementById("result").innerHTML = "This project has already expired. Further information in this page.";
     return;
   }
 
@@ -13,7 +13,7 @@ function calculateRemainingTime() {
   var remainingMinutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
 
   // HTML Result
-  document.getElementById("result").innerHTML = "Project ends in: " +
+  document.getElementById("result").innerHTML = "Project expires in: " +
   remainingDays + " days, " +
   remainingHours + " hours, " +
   remainingMinutes + " minutes.";
