@@ -11,7 +11,7 @@ body {
   margin: 5%;
 }
 
-h1, h2, h3, h4, a, p {
+h1, h2, h3, h4, a, p, ol, ul {
   font-family: "Proxima Nova",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   color: #1C1E21;
 }
