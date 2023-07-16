@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- Copyright C 2023 Sergio Fernández -->
+
+<html lang="en">
+<head>
+  <title>Sector III Mapping</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sector III Mapping. Making Getafe the most complete city in OpenStreetMap">
+  <meta name="author" content="BBJProjeK" />
+  <meta property="og:title" content="Sector III Mapping"><meta property="og:type" content="Website"><meta property="og:url" content="https://cabinet.bbjprojek.org" ><meta property="og:image" content="/assets/img/favicon_full.png" >
+  <meta name="theme-color" content="#005397" />
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/assets/img/favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/main.css" />
+  <link rel="stylesheet" href="/assets/background.css" />
+
+  <!-- Custom CSS (page-only) -->
+  <link rel="stylesheet" href="custom.css" />
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+</head>
+<body>
+  <header>
+  <a class="header-title">Sergio's Personal Cabinet · Blog</a>
+  <nav>
+    <div class="nav-left">
+      <a href="../..">← Blog</a>
+    </div>
+    <div class="nav-middle">
+      <a href="https://sergio.bbjprojek.org">Author's Page</a>
+    </div>
+    <div class="nav-right">
+      <!-- a href="#">Up Next →</a -->
+    </div>
+  </nav>
+  </header>
+
+  <h1>Sector III Mapping. Making Getafe the most complete city in OpenStreetMap</h1>
+  <h3>Introduction</h3>
+  <p>Hey everyone! 👋</p>
+  <p>I'm excited to announce a new project I've started - mapping our wonderful suburb, Sector III, in Getafe! 🏙️🌳</p>
+  <p>As part of the global OpenStreetMap community, I've taken up the challenge to contribute to this collaborative mapping effort. OpenStreetMap allows us to create and maintain a free, editable, and detailed map of our surroundings, and it's amazing how our contributions can make a real difference!</p>
+  <p>So, what's this all about? 🤔</p>
+
+  <h3>Why Map Sector III? 🗺️</h3>
+  <p>Sector III is home to so many beautiful places, parks, streets, and landmarks. By mapping it on OpenStreetMap, we can create a comprehensive and accurate representation of our neighborhood.</p>
+
+  <h3>Mapping everything mappable</h3>
+  <p>In this project, let's go beyond the obvious and map everything that can be done! Don't overlook the seemingly small and unnecessary things, like waste baskets, benches, streetlights, and other amenities. While they may seem insignificant individually, they make the information truly powerful, especially for API-based applications.</p>
+
+  <h3>Join the Effort. Get Started!</h3>
+  <p>I invite all of you to join me in this mapping endeavor! Whether you're a seasoned mapper or a total beginner, your input is valuable. Let's work together to put Sector III on the map!</p>
+  <p>To get started:</p>
+  <ol>
+    <li>Create an account on OpenStreetMap (it's free!).</li>
+    <li>Use the "iD Editor" (https://www.openstreetmap.org/edit) to add and edit features like roads, buildings, parks, and more. The editor is user-friendly and comes with helpful tutorials.</li>
+    <li>Don't hesitate to reach out if you have any questions or need assistance. You can ask in <a href="https://t.me/OSMMadrid">OSM Madrid Telegram Group</a></li>
+  </ol>
+
+  <p>Let's put Sector III, Getafe, on the map like never before! 🗺️📍</p>
+  <p>Happy mapping!</p>
+
+  <br><div id="map"></div><br>
+
+  <h3>Changelog</h3>
+  <p>July 16, 2023</p>
+  <ul>
+    <li><b>Urb. Bañolas II</b>: Buildings, parks, streets, parking and details</li>
+  </ul>
+  <p>July 11, 2023</p>
+  <ul>
+    <li><b>Av. Europa (South)</b>: Buildings, parks, streets, parking and details</li>
+  </ul>
+  <p>July 7, 2023</p>
+  <ul>
+    <li><b>Av. 14 de Abril</b>: Buildings, parks, streets, parking and details</li>
+  </ul>
+  <p>July 3, 2023</p>
+  <ul>
+    <li><b>C/ Islas Canarias (North)</b>: Buildings, parks, streets, parking and details</li>
+  </ul>
+  <p>July 1, 2023</p>
+  <ul>
+    <li><b>Av. Europa (North)</b>: Streets, turn restrictions</li>
+  </ul>
+  <p>June 30, 2023</p>
+  <ul>
+    <li><b>Buenavista</b>: Parking and details</li>
+  </ul>
+  <p>June 28, 2023</p>
+  <ul>
+    <li><b>Buenavista</b>: Buildings corrections</li>
+  </ul>
+  <p>June 27, 2023</p>
+  <ul>
+    <li><b>Av. Europa (North)</b>: Buildings, parks, streets, parking and details</li>
+  </ul>
+  <p>June 25, 2023</p>
+  <ul>
+    <li><b>C/ Islas Canarias (South)</b>: Buildings, parks, streets, parking and details</li>
+  </ul>
+
+
+  <!-- Scripts -->
+  <script src="map.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+/* Copyright C 2023 BBJProjeK Labs */
+
+.branding_color {
+  color: #1d4f91;
+}
+
+.entry {
+  border-width:2px;
+  border-style:solid;
+  border-color:#404040;
+  padding: 1em;
+  border-radius: 1rem
+}
+
+.entry:hover {
+  background-color: #DFECFF
+}
+
+a.entry_clickable {
+  display: block;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.entry_date {
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+.entry_title {
+  padding-top: 0px;
+  margin-bottom: 0px
+}
+
+/*** Dark Mode ***/
+@media (prefers-color-scheme: dark) {
+  .branding_color {
+    color: #6CACE4;
+  }
+
+  .entry {
+    border-color: #848C99
+  }
+
+  .entry:hover {
+    background-color: #163154
+  }
