@@ -3,3 +3,38 @@
 #map {
   height: 400px;
 }
+
+.container {
+  background-color: #C0C0C0;
+  width: auto;
+  border-radius: 10px;
+}
+
+.skill {
+  font-family: "Sagona",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-weight: bold;
+  background-color: #6CACE4;
+  color: white;
+  padding: 1%;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.html {
+  width: 45%;
+}
+
+.align-right {
+  text-align: right;
+}
+
+/*** Dark Mode ***/
+@media (prefers-color-scheme: dark) {
+  .skill {
+    background-color: #1d4f91;
+  }
+
+  .container {
+    background-color: #404040;
+  }
