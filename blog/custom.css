@@ -7,7 +7,15 @@
 .entry {
   border-width:2px;
   border-style:solid;
-  border-color:#404040;
+  border-color:#C0C0C0;
+  padding: 1em;
+  border-radius: 1rem
+}
+
+.entry_onentry {
+  border-width:2px;
+  border-style:solid;
+  border-color:#C0C0C0;
   padding: 1em;
   border-radius: 1rem
 }
