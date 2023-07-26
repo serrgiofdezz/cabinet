@@ -6,4 +6,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/blog/</loc>
+    <lastmod>2023-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/blog/entries/20230716/sectoriii_mapping</loc>
+    <lastmod>2023-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
