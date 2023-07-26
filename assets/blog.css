@@ -1,17 +1,16 @@
 /* Copyright C 2023 BBJProjeK Labs */
 
-.branding_color {
+.branding_color { /* Set BBJProjeK Main Color */
   color: #1d4f91;
 }
 
-.entry {
+.entry { /* Blog entry properties */
   border-width:2px;
   border-style:solid;
   border-color:#C0C0C0;
   padding: 1em;
   border-radius: 1rem
 }
-
 .entry_onentry {
   border-width:2px;
   border-style:solid;
@@ -19,22 +18,18 @@
   padding: 1em;
   border-radius: 1rem
 }
-
 .entry:hover {
-  background-color: #DFECFF
+  background-color: #DFECFF;
 }
-
 a.entry_clickable {
   display: block;
   font-style: normal;
   text-decoration: none;
 }
-
 .entry_date {
   text-transform: uppercase;
   margin-top: 0px;
 }
-
 .entry_title {
   padding-top: 0px;
   margin-bottom: 0px
