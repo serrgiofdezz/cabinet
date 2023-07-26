@@ -106,4 +106,8 @@ nav a:hover {
    header {
      background-color: #6CACE4;
    }
+   .header-title,
+   .header-subtitle {
+     color: #1C1E21;
+   }
 }
