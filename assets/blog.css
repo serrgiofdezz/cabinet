@@ -42,9 +42,9 @@ a.entry_clickable {
   }
 
   .entry {
-    border-color: #848C99
+    border-color: #848C99;
   }
 
   .entry:hover {
-    background-color: #163154
+    background-color: #182F44;
   }
