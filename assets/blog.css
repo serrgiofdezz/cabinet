@@ -19,7 +19,7 @@
   border-radius: 1rem
 }
 .entry:hover {
-  background-color: #DFECFF;
+    background-color: rgba(29, 79, 145, 0.1);
 }
 a.entry_clickable {
   display: block;
@@ -46,5 +46,5 @@ a.entry_clickable {
   }
 
   .entry:hover {
-    background-color: #182F44;
+    background-color: rgba(108, 172, 228, 0.1);
   }
