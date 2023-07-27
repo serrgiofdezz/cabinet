@@ -43,14 +43,23 @@ header {
 }
 
 .box {
-  /* margin-top: 20px;
-  padding-bottom: 1rem; */
+  margin-top: -5px;
+  /* padding-bottom: 1rem; */
+  text-decoration: none;
   width: auto;
   color: #FFFFFF;
   background-color: #1D4F91;
   padding: 10px;
   border-radius: 10px;
   font-weight: bold;
+}
+
+.box:hover {
+  border-color: #1D4F91;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #FFFFFF;
+  color: #404040;
 }
 
 .utc {
@@ -119,5 +128,9 @@ nav a:hover {
    }
    .header-title, .header-subtitle, .box {
      color: #1C1E21;
+   }
+
+   .box:hover {
+     border-color: #6CACE4;
    }
 }
