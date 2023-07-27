@@ -42,6 +42,17 @@ header {
   font-weight: bold;
 }
 
+.box {
+  /* margin-top: 20px;
+  padding-bottom: 1rem; */
+  width: auto;
+  color: #FFFFFF;
+  background-color: #1D4F91;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
 .utc {
   align: right;
 }
@@ -103,11 +114,10 @@ nav a:hover {
      color: #FFFFFF;
    }
 
-   header {
+   header, .box {
      background-color: #6CACE4;
    }
-   .header-title,
-   .header-subtitle {
+   .header-title, .header-subtitle, .box {
      color: #1C1E21;
    }
 }
