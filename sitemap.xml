@@ -13,8 +13,26 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://cabinet.bbjprojek.org/blog/es</loc>
+    <lastmod>2023-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://cabinet.bbjprojek.org/blog/entries/20230716/sectoriii_mapping</loc>
     <lastmod>2023-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/blog/es/entries/2023/07/21/comportamiento-social-en-canciones</loc>
+    <lastmod>2023-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/blog/es/entries/2023/06/13/el-fisico-importa-para-argumentar</loc>
+    <lastmod>2023-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
