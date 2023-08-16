@@ -1,4 +1,5 @@
 function calculateRemainingTime() {
+  // var originalDate = new Date("2023-05-06T00:00:00");
   var targetDate = new Date("2023-11-24T00:00:00");
   var currentDate = new Date();
   var timeDifference = targetDate - currentDate;
