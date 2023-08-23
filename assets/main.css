@@ -21,7 +21,8 @@ h1, h2, h3 {
 }
 
 a:link, a:active {
-  /* color: green; */
+  font-weight: bold;
+  color: #1D4F91
 }
 
 /*  Header Section */
@@ -132,5 +133,8 @@ nav a:hover {
 
    .box:hover {
      border-color: #6CACE4;
+   }
+   a:link, a:active {
+     color: #6CACE4
    }
 }
