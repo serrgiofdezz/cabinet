@@ -10,4 +10,5 @@ function updateTime() {
   document.getElementById('clock').innerHTML = time;
 }
 
+updateTime();
 setInterval(updateTime, 1000);
