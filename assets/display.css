@@ -1,0 +1,25 @@
+/* Copyright C 2022 bbjprojek labs /*
+
+/* Code provided by Mateo Corral (https://mateocorral.neocities.org) */
+
+/* Display blocks depending on horz or vert display */
+.horz                {display: none;}
+@media screen and (orientation: landscape) {
+  .horz {
+    display: block;
+  }
+  .vert {
+    display: none;
+  }
+}
+
+/* Display blocks depending on light or dark theme */
+.dark                {display: none;}
+@media (prefers-color-scheme: dark) {
+  .dark {
+    display: block;
+  }
+  .light  {
+    display: none;
+  }
+}
