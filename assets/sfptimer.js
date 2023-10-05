@@ -14,7 +14,7 @@ function calculateRemainingTime() {
   var remainingMinutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
 
   // HTML Result
-  document.getElementById("result").innerHTML = "Project expires in: " +
+  document.getElementById("result").innerHTML = "License expires in: " +
   remainingDays + " days, " +
   remainingHours + " hours, " +
   remainingMinutes + " minutes.";
