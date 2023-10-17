@@ -5,7 +5,7 @@ function calculateRemainingTime() {
   var timeDifference = targetDate - currentDate;
 
   if (timeDifference < 0) {
-    document.getElementById("result").innerHTML = "This project has already expired. Further information in this page.";
+    document.getElementById("result").innerHTML = "<i>This project has already expired. Further information in this page. </i>";
     return;
   }
 
