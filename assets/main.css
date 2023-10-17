@@ -50,6 +50,28 @@ header {
   font-weight: bold;
 }
 
+/* Define the animation for fading in and out each letter */
+.header-title span {
+  animation: fadeInOut 0.2s forwards;
+  opacity: 0;
+  display: inline-block;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  49.5% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .box {
   margin-top: -5px;
   /* padding-bottom: 1rem; */
