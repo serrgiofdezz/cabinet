@@ -15,7 +15,7 @@ for (const char of text) {
 const letters = title.querySelectorAll('span');
 letters.forEach((letter, index) => {
   setTimeout(() => {
-    letter.style.animationDelay = `${0.03 * index}s`;
-    letter.style.animationDuration = '0.5s';
+    letter.style.animationDelay = `${.03 * index}s`;
+    letter.style.animationDuration = '.4s';
   }, 0);
 });
