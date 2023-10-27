@@ -23,8 +23,12 @@ code {
   color: #1C1E21;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   color: #404040;
+}
+
+h3, h4 {
+  font-style: italic;
 }
 
 a:link, a:active, a:visited {
@@ -150,7 +154,7 @@ a.header-subtitle {
      color: #FFFFFF;
    }
 
-   h1, h2, h3 {
+   h1, h2, h3, h4 {
      color: #CCCCCC;
    }
 
