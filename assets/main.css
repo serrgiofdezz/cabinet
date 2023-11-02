@@ -105,6 +105,10 @@ a.box {
 }
 
 .h2o {
+  color: #BB1420;
+}
+
+.h3o {
   color: #404040;
 }
 
@@ -159,6 +163,10 @@ a.header-subtitle {
    }
 
    .h2o {
+     color: #BB6969;
+   }
+
+   .h3o {
      color: #CCCCCC;
    }
 
