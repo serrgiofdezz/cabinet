@@ -10,19 +10,31 @@
     <loc>https://cabinet.bbjprojek.org/blog/</loc>
     <lastmod>2023-07-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/blog/es</loc>
     <lastmod>2023-07-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/blog/entries/2023/07/16/sectoriii_mapping</loc>
     <lastmod>2023-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/blog/entries/2023/11/01/bbjprojek-sfp-extended</loc>
+    <lastmod>2023-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/blog/entries/2023/11/01/all-about-bbjprojek-sfp</loc>
+    <lastmod>2023-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/blog/es/entries/2023/07/21/comportamiento-social-en-canciones</loc>
