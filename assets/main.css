@@ -14,19 +14,25 @@ body {
 }
 
 :root {
-  --main: #1C1E21;
-  --a-color: #1C1E21; /* Internal Tables */
+  --heading: #1C1E21;
   --ffamily: "Proxima Nova",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --ffamily-code: ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  --branding: #1D4F91;
+  --branding-authority: #1D6E91;
+
+  /* Temp root classes */
+  --a-color: #1C1E21;
+  --main: #1C1E21;
 }
 
 h1, h2, h3, h4, a, p, ol, ul {
-  font-family: "Proxima Nova",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: var(--ffamily);
   color: var(--main);
 }
 
 code {
-  font-family: ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  color: #1C1E21;
+  font-family: var(--ffamily-code);
+  color: var(--main);
 }
 
 h1, h2, h3, h4 {
@@ -39,12 +45,12 @@ h3, h4 {
 
 a:link, a:active, a:visited {
   font-weight: bold;
-  color: #1D4F91
+  color: #1D6E91
 }
 
 /*  Header Section */
 header {
-  background-color: #1D4F91;
+  background-color: var(--branding-authority);
   padding: 10px;
   border-radius: 10px;
 }
@@ -60,42 +66,20 @@ header {
   font-weight: bold;
 }
 
-/* Define the animation for fading in and out each letter */
-.header-title span {
-  animation: fadeInOut 0.2s forwards;
-  opacity: 0;
-  display: inline-block;
-}
-
-@keyframes fadeInOut {
-  0% {
-    opacity: 0;
-  }
-  49.5% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .box {
   margin-top: -5px;
   /* padding-bottom: 1rem; */
   text-decoration: none;
   width: auto;
   color: #FFFFFF;
-  background-color: #1D4F91;
+  background-color: var(--branding-authority);
   padding: 10px;
   border-radius: 10px;
   font-weight: bold;
 }
 
 .box:hover {
-  border-color: #1D4F91;
+  border-color: var(--branding-authority);
   border-width: 2px;
   border-style: solid;
   background-color: #FFFFFF;
@@ -164,6 +148,8 @@ a.header-subtitle {
    :root {
      --a-color: #FFFFFF; /* Define a root variable for primary color */
      --main: #FFFFFF;
+     --branding: #6CACE4;
+     --branding-authority: #44A8D2;
    }
 
    h1, h2, h3, h4, a, p, code {
@@ -183,7 +169,7 @@ a.header-subtitle {
    }
 
    a:link, a:active, a:visited {
-     color: #6CACE4
+     color: var(--branding-authority);
    }
 
    li {
@@ -191,7 +177,7 @@ a.header-subtitle {
    }
 
    header, .box {
-     background-color: #6CACE4;
+     background-color: var(--branding-authority);;
    }
 
    a.box {
@@ -207,6 +193,28 @@ a.header-subtitle {
    }
 
    .box:hover {
-     border-color: #6CACE4;
+     border-color: var(--branding-authority);;
    }
+}
+
+/* Animations for fading in and out each letter */
+.header-title span {
+  animation: fadeInOut 0.2s forwards;
+  opacity: 0;
+  display: inline-block;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  49.5% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
