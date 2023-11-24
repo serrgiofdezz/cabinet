@@ -15,7 +15,7 @@ body {
 
 :root {
   --branding: #1D4F91;
-  --branding-authority: #1D6E91;
+  --branding-authority: #006A8E;
   --normal: #1C1E21;
   --heading: #404040;
   --ffamily: "DM Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -155,7 +155,7 @@ a.header-subtitle {
      --normal: #FFFFFF;
      --heading: #CCCCCC;
      --branding: #6CACE4;
-     --branding-authority: #44A8D2;
+     --branding-authority: #48A9C5;
    }
 
    h1, h2, h3, h4, a, p, code {
