@@ -67,6 +67,10 @@ header {
   font-weight: bold;
 }
 
+.header-title:hover {
+  color: #FFFFFF;
+}
+
 .box {
   margin-top: -5px;
   /* padding-bottom: 1rem; */
