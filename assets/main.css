@@ -14,11 +14,12 @@ body {
 }
 
 :root {
-  --heading: #1C1E21;
-  --ffamily: "Proxima Nova",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  --ffamily-code: ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
   --branding: #1D4F91;
   --branding-authority: #1D6E91;
+  --normal: #1C1E21;
+  --heading: #404040;
+  --ffamily: "DM Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --ffamily-code: "DM Mono",ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 
   /* Temp root classes */
   --a-color: #1C1E21;
@@ -27,16 +28,16 @@ body {
 
 h1, h2, h3, h4, a, p, ol, ul {
   font-family: var(--ffamily);
-  color: var(--main);
+  color: var(--normal);
 }
 
 code {
   font-family: var(--ffamily-code);
-  color: var(--main);
+  color: var(--normal);
 }
 
 h1, h2, h3, h4 {
-  color: #404040;
+  color: var(--heading);
 }
 
 h3, h4 {
@@ -45,7 +46,7 @@ h3, h4 {
 
 a:link, a:active, a:visited {
   font-weight: bold;
-  color: #1D6E91
+  color: var(--branding-authority);
 }
 
 /*  Header Section */
@@ -83,7 +84,7 @@ header {
   border-width: 2px;
   border-style: solid;
   background-color: #FFFFFF;
-  color: #404040;
+  color: var(--heading);
 }
 
 a.box {
@@ -147,17 +148,18 @@ a.header-subtitle {
 
    :root {
      --a-color: #FFFFFF; /* Define a root variable for primary color */
-     --main: #FFFFFF;
+     --normal: #FFFFFF;
+     --heading: #CCCCCC;
      --branding: #6CACE4;
      --branding-authority: #44A8D2;
    }
 
    h1, h2, h3, h4, a, p, code {
-     color: var(--main);
+     color: var(--normal);
    }
 
    h1, h2, h3, h4 {
-     color: #CCCCCC;
+     color: var(--heading);
    }
 
    .h2o {
@@ -165,7 +167,7 @@ a.header-subtitle {
    }
 
    .h3o {
-     color: #CCCCCC;
+     color: var(--heading);
    }
 
    a:link, a:active, a:visited {
@@ -173,7 +175,7 @@ a.header-subtitle {
    }
 
    li {
-     color: #FFFFFF;
+     color: var(--normal);
    }
 
    header, .box {
