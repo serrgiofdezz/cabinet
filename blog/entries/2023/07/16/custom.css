@@ -11,9 +11,9 @@
 }
 
 .skill {
-  font-family: "Sagona",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: var(--ffamily);
   font-weight: bold;
-  background-color: #1D4F91;
+  background-color: var(--branding-authority);
   color: white;
   padding: 1%;
   text-align: right;
@@ -32,7 +32,7 @@
 /*** Dark Mode ***/
 @media (prefers-color-scheme: dark) {
   .skill {
-    background-color: #6CACE4;
+    background-color: var(--branding-authority);
   }
 
   .container {
