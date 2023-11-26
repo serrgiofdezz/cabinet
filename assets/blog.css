@@ -19,7 +19,7 @@
   border-radius: 1rem
 }
 .entry:hover {
-    background-color: rgba(29, 79, 145, 0.1);
+    background-color: rgba(0, 106, 142, 0.1);
 }
 a.entry_clickable {
   display: block;
@@ -58,6 +58,6 @@ h3.entry_title {
   }
 
   .entry:hover {
-    background-color: rgba(108, 172, 228, 0.1);
+    background-color: rgba(72, 169, 197, 0.1);
   }
 }
