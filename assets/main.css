@@ -31,6 +31,10 @@ h1, h2, h3, h4, a, p, ol, ul {
   color: var(--normal);
 }
 
+ul.secondary {
+  color: #707070;
+}
+
 code {
   font-family: var(--ffamily-code);
   color: var(--normal);
@@ -166,6 +170,10 @@ a.header-subtitle {
      color: var(--heading);
    }
 
+   ul.secondary {
+     color: #B7B7B7;
+   }
+
    .h2o {
      color: #BB6969;
    }
@@ -176,10 +184,6 @@ a.header-subtitle {
 
    a:link, a:active, a:visited {
      color: var(--branding-authority);
-   }
-
-   li {
-     color: var(--normal);
    }
 
    header, .box {
