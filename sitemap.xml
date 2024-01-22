@@ -67,38 +67,44 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/licensed/independence-pop-fm/</loc>
-    <lastmod>2024-01-10</lastmod>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/</loc>
+    <lastmod>2024-01-22</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/independence-pop-fm/</loc>
+    <lastmod>2024-01-22</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/new-wave-fm/</loc>
-    <lastmod>2024-01-10</lastmod>
+    <lastmod>2024-01-22</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/non-stop-pop-fm/</loc>
-    <lastmod>2024-01-10</lastmod>
+    <lastmod>2024-01-22</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/</loc>
-    <lastmod>2024-01-10</lastmod>
+    <lastmod>2024-01-22</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-authority-rock-radio/</loc>
-    <lastmod>2024-01-10</lastmod>
+    <lastmod>2024-01-22</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-lab-fm/</loc>
-    <lastmod>2024-01-10</lastmod>
+    <lastmod>2024-01-22</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
