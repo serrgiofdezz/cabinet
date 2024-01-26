@@ -33,7 +33,7 @@ function doReplace() {
         // .replace(/##DONATE_URL##/g, donate_url)
         // .replace(/##XDA_URL##/g, xda_url)
         // .replace(/##KERNEL_SOURCE_URL##/g, kernel_source_url)
-        .replace(/---/g, '\n')
+        .replace(/@@/g, '\n')
 }
 
 qs('#form').addEventListener('submit', (event) => {
