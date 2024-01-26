@@ -1,5 +1,4 @@
-var template = `
-<!DOCTYPE html>
+var template = `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <!-- Copyright C 2024 The BBJProjeK Organization -->
 <html>
 <head>
@@ -11,7 +10,7 @@ var template = `
   <title>[Ticket] ##TITLE##</title>
 
   <!-- Custom style and CSS -->
-  <style type="text/css">pre { white-space: pre-wrap; /* css-2.1, curent FF, Opera, Safari */ }</style>
+  <style type="text/css">pre { white-space: pre-wrap; }</style>
   <link rel="stylesheet" href="/pipermail/main.css" />
 </head>
 <body>
