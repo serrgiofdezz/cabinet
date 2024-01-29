@@ -92,9 +92,15 @@
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/</loc>
-    <lastmod>2024-01-22</lastmod>
+    <lastmod>2024-01-29</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/radio-authority-park/optional-packages/dlc1/</loc>
+    <lastmod>2024-01-29</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-authority-rock-radio/</loc>
@@ -103,10 +109,16 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-lab-fm/</loc>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/</loc>
     <lastmod>2024-01-22</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc1/</loc>
+    <lastmod>2024-01-29</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/internal/copyright</loc>
