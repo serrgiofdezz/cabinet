@@ -6,6 +6,7 @@ html {
   word-wrap: break-word;
   max-width: 1250px;
   margin: auto;
+  overflow-y: scroll;
 }
 
 body {
