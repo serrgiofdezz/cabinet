@@ -4,34 +4,31 @@
   color: var(--branding-authority);
 }
 
-.entry { /* Blog entry properties */
+.entry, .entry_onentry {
   border-width:2px;
   border-style:solid;
   border-color:#C0C0C0;
   padding: 1em;
   border-radius: 1rem
 }
-.entry_onentry {
-  border-width:2px;
-  border-style:solid;
-  border-color:#C0C0C0;
-  padding: 1em;
-  border-radius: 1rem
-}
+
 .entry:hover {
-    background-color: rgba(0, 106, 142, 0.1);
+    background-color: rgba(0, 106, 142, 0.2);
 }
+
 a.entry_clickable {
   display: block;
   font-style: normal;
   text-decoration: none;
 }
+
 .entry_date {
   text-transform: uppercase;
   margin-top: 0px;
   font-weight: normal;
   margin-bottom: 0px;
 }
+
 .entry_title {
   padding-top: 0px;
   margin-bottom: 0px
@@ -58,6 +55,6 @@ h3.entry_title {
   }
 
   .entry:hover {
-    background-color: rgba(72, 169, 197, 0.1);
+    background-color: rgba(72, 169, 197, 0.2);
   }
 }

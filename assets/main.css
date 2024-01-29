@@ -16,8 +16,9 @@ body {
 :root {
   --branding: #1D4F91;
   --branding-authority: #006A8E;
-  --normal: #1C1E21;
   --heading: #404040;
+  --normal: #1C1E21;
+  --secondary: #606060;
   --ffamily: "DM Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   --ffamily-code: "DM Mono",ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 
@@ -26,17 +27,9 @@ body {
   --main: #1C1E21;
 }
 
+/* Main layout */
 h1, h2, h3, h4, a, p, ol, ul {
   font-family: var(--ffamily);
-  color: var(--normal);
-}
-
-ul.secondary {
-  color: #707070;
-}
-
-code {
-  font-family: var(--ffamily-code);
   color: var(--normal);
 }
 
@@ -48,13 +41,22 @@ h3, h4 {
   font-style: italic;
 }
 
+ol li, ul li {
+    margin-bottom: 8px;
+}
+
+code {
+  font-family: var(--ffamily-code);
+  color: var(--normal);
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
 a:link, a:active, a:visited {
   font-weight: bold;
   color: var(--branding-authority);
-}
-
-ol li, ul li {
-    margin-bottom: 8px;
 }
 
 /*  Header Section */
@@ -79,40 +81,9 @@ header {
   color: #FFFFFF;
 }
 
-.box {
-  margin-top: -5px;
-  /* padding-bottom: 1rem; */
-  text-decoration: none;
-  width: auto;
+a.header-subtitle {
+  font-weight: normal;
   color: #FFFFFF;
-  background-color: var(--branding-authority);
-  padding: 10px;
-  border-radius: 10px;
-  font-weight: bold;
-}
-
-.box:hover {
-  border-color: var(--branding-authority);
-  border-width: 2px;
-  border-style: solid;
-  background-color: #FFFFFF;
-  color: var(--heading);
-}
-
-a.box {
-  color: #FFFFFF;
-}
-
-.utc {
-  align: right;
-}
-
-.h2o {
-  color: #BB1420;
-}
-
-.h3o {
-  color: #404040;
 }
 
 nav {
@@ -146,11 +117,42 @@ nav a:hover {
   color: #404040;
 }
 
-a.header-subtitle {
-  font-weight: normal;
+/* Header-style bottons */
+.box {
+  margin-top: -5px;
+  text-decoration: none;
+  width: auto;
+  color: #FFFFFF;
+  background-color: var(--branding-authority);
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.box:hover {
+  border-color: var(--branding-authority);
+  border-width: 2px;
+  border-style: solid;
+  background-color: #FFFFFF;
+  color: var(--heading);
+}
+
+a.box {
   color: #FFFFFF;
 }
 
+/* Misc */
+.utc {
+  align: right;
+}
+
+.h2o {
+  color: #BB1420;
+}
+
+.h3o {
+  color: #404040;
+}
 
 /*** Dark Mode ***/
 @media (prefers-color-scheme: dark) {
@@ -159,7 +161,7 @@ a.header-subtitle {
    }
 
    :root {
-     --a-color: #FFFFFF; /* Define a root variable for primary color */
+     --a-color: #FFFFFF;
      --normal: #FFFFFF;
      --heading: #CCCCCC;
      --branding: #6CACE4;
