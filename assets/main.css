@@ -18,14 +18,14 @@ body {
   --branding: #1D4F91;
   --branding-authority: #006A8E;
   --heading: #404040;
-  --normal: #1C1E21;
+  --normal: #202020;
   --secondary: #606060;
   --ffamily: "DM Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   --ffamily-code: "DM Mono",ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 
   /* Temp root classes */
-  --a-color: #1C1E21;
-  --main: #1C1E21;
+  --a-color: #202020;
+  --main: #202020;
 }
 
 /* Main layout */
@@ -198,15 +198,15 @@ a.box {
    }
 
    a.box {
-     color: #1C1E21;
+     color: #202020;
    }
 
    .header-title, .header-subtitle, .box {
-     color: #1C1E21;
+     color: #202020;
    }
 
    a.header-subtitle {
-     color: #1C1E21;
+     color: #202020;
    }
 
    .box:hover {
