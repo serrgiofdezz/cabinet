@@ -11,3 +11,4 @@ temp
 *.ps1
 *e.Identifier*
 /_*.txt
+/_*
