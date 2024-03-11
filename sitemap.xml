@@ -13,12 +13,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/blog/es</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
     <loc>https://cabinet.bbjprojek.org/blog/entries/2023/05/06/bbjprojek-sfp</loc>
     <lastmod>2023-05-06</lastmod>
     <changefreq>never</changefreq>
@@ -57,30 +51,6 @@
   <url>
     <loc>https://cabinet.bbjprojek.org/blog/entries/2024/02/21/ertms-playlist-stripped</loc>
     <lastmod>2024-02-21</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cabinet.bbjprojek.org/blog/es/entries/2023/07/21/comportamiento-social-en-canciones</loc>
-    <lastmod>2023-07-21</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cabinet.bbjprojek.org/blog/es/entries/2023/06/13/el-fisico-importa-para-argumentar</loc>
-    <lastmod>2023-06-13</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cabinet.bbjprojek.org/blog/es/entries/2023/08/12/combatir-onlyfans</loc>
-    <lastmod>2023-08-12</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cabinet.bbjprojek.org/blog/es/entries/2023/08/16/mra-mgtow-pua-el-hombre-del-siglo-xxi</loc>
-    <lastmod>2023-08-16</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
