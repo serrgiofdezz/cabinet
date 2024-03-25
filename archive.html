@@ -21,14 +21,9 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/assets/main.css" />
-  <link rel="stylesheet" href="/assets/background.css" />
   <link rel="stylesheet" href="/assets/display.css" />
 
   <style>
-    body {
-      /* Custom background */
-      background-image: url('/');
-    }
 
     a:link, a:active, a:visited {
       color: var(--normal);
@@ -36,8 +31,17 @@
       font-weight: normal;
     }
 
+    .header-title {
+      font-weight: bold !important;
+    }
+
     .header-subtitle, .box {
-      color: #ffffff !important;
+      color: #FFFFFF !important;
+    }
+
+    nav a:hover {
+      background-color: #FFFFFF;
+      color: #404040 !important;
     }
 
     /*** Dark Mode ***/
@@ -49,6 +53,11 @@
 
        .header-subtitle, .box {
          color: #202020 !important;
+       }
+
+       nav a:hover {
+         background-color: #202020;
+         color: #FFFFFF !important;
        }
      }
   </style>
