@@ -107,7 +107,7 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: #FFFFFF;
   text-decoration: none;
   padding: 5px;
   border-radius: 5px;
@@ -164,6 +164,7 @@ a.box {
    :root {
      --a-color: #FFFFFF;
      --normal: #FFFFFF;
+     --header-normal: #202020;
      --heading: #CCCCCC;
      --branding: #6CACE4;
      --branding-authority: #48A9C5;
@@ -197,16 +198,39 @@ a.box {
      background-color: var(--branding-authority);;
    }
 
+   nav a {
+     color: var(--normal);
+   }
+
+   nav a:hover {
+     background-color: var(--header-normal);
+     color: var(--normal);
+   }
+
+   .box:hover {
+     border-color: var(--branding-authority);
+     background-color: var(--header-normal);
+     color: var(--header-normal);
+   }
+
+   a.box:hover {
+     color: var(--normal);
+   }
+
    a.box {
-     color: #202020;
+     color: var(--header-normal);
    }
 
    .header-title, .header-subtitle, .box {
-     color: #202020;
+     color: var(--header-normal);
+   }
+
+   .header-title:hover {
+     color: var(--header-normal);
    }
 
    a.header-subtitle {
-     color: #202020;
+     color: var(--header-normal);
    }
 
    .box:hover {
