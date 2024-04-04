@@ -1,5 +1,8 @@
-# Temp
-temp
+# Dependencies
+/node_modules
+
+# Production
+/build
 
 # Misc
 .DS_Store
@@ -7,6 +10,8 @@ temp
 .env.development.local
 .env.test.local
 .env.production.local
+temp
+
 
 *.ps1
 *e.Identifier*

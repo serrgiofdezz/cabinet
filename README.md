@@ -1,12 +1,12 @@
 # Cabinet
 Sergio's Personal Cabinet. A really lightweight and static html5 page for my personal notes, posts and information
 
-## Previewing
-Using nodejs:
+## Serving.
+Install npm dependencies:
 ```
-npm install http-server -g
+npm install
 ```
-
+To serve the web right away:
 ```
-http-server -p 8080 -c-1
+npm run start
 ```

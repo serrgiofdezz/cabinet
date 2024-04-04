@@ -1,0 +1,11 @@
+{
+  "name": "cabinet",
+  "version": "4.0.0",
+  "private": true,
+  "scripts": {
+    "start": "http-server -c-1 -s -o"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
