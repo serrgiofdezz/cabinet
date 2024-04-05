@@ -1,16 +1,14 @@
 /* Copyright C 2023 The BBJProjeK Organization */
 
 body {
-  /* Custom background */
   background-image: url('img/bck_light.svg');
   background-repeat: repeat;
-  background-size: 100%;
+  background-size: 140%;
 }
 
 /*** Dark Mode ***/
 @media (prefers-color-scheme: dark) {
    body {
-     /* Custom background */
      background-image: url('img/bck_dark.svg');
    }
  }
