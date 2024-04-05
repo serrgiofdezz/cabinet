@@ -162,7 +162,7 @@ a.box {
 /*** Dark Mode ***/
 @media (prefers-color-scheme: dark) {
    body {
-     background-color: #1C1E21;
+     background-color: #121212;
    }
 
    :root {
