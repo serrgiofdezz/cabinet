@@ -166,6 +166,7 @@ a.box {
    }
 
    :root {
+     color-scheme: dark;
      --a-color: #FFFFFF;
      --normal: #FFFFFF;
      --header-normal: #202020;
