@@ -8,8 +8,7 @@ body {
 }
 
 :root {
-  --branding: #1D4F91;
-  --branding-authority: #006A8E;
+  --branding: #006A8E;
   --normal: #121212;
   --heading: #404040;
   --ffamily: "DM Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -82,14 +81,14 @@ input {
 }
 
 input:focus {
-  border: 2px solid var(--branding-authority);
+  border: 2px solid var(--branding);
   padding: calc(13px - 1px) 0;
   width: calc(100% - 2px);
   text-indent: 14px;
 }
 
 input:focus:required:invalid {
-  border-color: var(--branding-authority);
+  border-color: var(--branding);
 }
 
 input::placeholder {
@@ -107,7 +106,7 @@ span {
 }
 
 #generate {
-  background-color: var(--branding-authority);
+  background-color: var(--branding);
   border-radius: 4px;
   box-shadow: none;
   width: 96px;
@@ -122,12 +121,12 @@ span {
 }
 
 #generate:hover {
-  background-color: var(--branding-authority);
+  background-color: var(--branding);
   box-shadow: 0 1px 1px 0 rgba(66, 133, 244, 0.45), 0 1px 3px 1px rgba(66, 133, 244, 0.3);
 }
 
 #generate:focus {
-  background-color: var(--branding-authority);
+  background-color: var(--branding);
 }
 
 .output {
@@ -224,7 +223,7 @@ a:active {
     --normal: #FFFFFF;
     --heading: #CCCCCC;
     --branding: #6CACE4;
-    --branding-authority: #48A9C5;
+    --branding: #48A9C5;
   }
 
   .card {
@@ -255,12 +254,12 @@ a:active {
   }
 
   #generate {
-    background-color: var(--branding-authority);
+    background-color: var(--branding);
     color: #121212;
   }
 
   #generate:hover, #generate:focus {
-    background-color: var(--branding-authority);
+    background-color: var(--branding);
   }
 
   #output {
@@ -273,10 +272,10 @@ a:active {
   }
 
   input:focus {
-    border: 2px solid var(--branding-authority);
+    border: 2px solid var(--branding);
   }
 
   input:focus:required:invalid {
-    border-color: var(--branding-authority);
+    border-color: var(--branding);
   }
 }
