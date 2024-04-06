@@ -1,7 +1,7 @@
 /* Copyright C 2023 The BBJProjeK Organization */
 
 .branding_color { /* Set BBJProjeK Main Color */
-  color: var(--branding-authority);
+  color: var(--branding);
 }
 
 .entry, .entry_onentry {
@@ -47,7 +47,7 @@ h3.entry_title {
 /*** Dark Mode ***/
 @media (prefers-color-scheme: dark) {
   .branding_color {
-    color: var(--branding-authority);
+    color: var(--branding);
   }
 
   .entry {

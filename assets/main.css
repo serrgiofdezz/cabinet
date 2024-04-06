@@ -15,8 +15,7 @@ body {
 }
 
 :root {
-  --branding: #1D4F91;
-  --branding-authority: #006A8E;
+  --branding: #006A8E;
   --heading: #404040;
   --normal: #202020;
   --secondary: #606060;
@@ -61,12 +60,12 @@ code {
 
 a:link, a:active, a:visited {
   font-weight: bold;
-  color: var(--branding-authority);
+  color: var(--branding);
 }
 
 /*  Header Section */
 header {
-  background-color: var(--branding-authority);
+  background-color: var(--branding);
   padding: 10px;
   border-radius: 10px;
 }
@@ -128,14 +127,14 @@ nav a:hover {
   text-decoration: none;
   width: auto;
   color: #FFFFFF;
-  background-color: var(--branding-authority);
+  background-color: var(--branding);
   padding: 10px;
   border-radius: 10px;
   font-weight: bold;
 }
 
 .box:hover {
-  border-color: var(--branding-authority);
+  border-color: var(--branding);
   border-width: 2px;
   border-style: solid;
   background-color: #FFFFFF;
@@ -171,8 +170,7 @@ a.box {
      --normal: #FFFFFF;
      --header-normal: #202020;
      --heading: #CCCCCC;
-     --branding: #6CACE4;
-     --branding-authority: #48A9C5;
+     --branding: #48A9C5;
    }
 
    h1, h2, h3, h4, a, p, code {
@@ -196,11 +194,11 @@ a.box {
    }
 
    a:link, a:active, a:visited {
-     color: var(--branding-authority);
+     color: var(--branding);
    }
 
    header, .box {
-     background-color: var(--branding-authority);;
+     background-color: var(--branding);;
    }
 
    nav a {
@@ -213,7 +211,7 @@ a.box {
    }
 
    .box:hover {
-     border-color: var(--branding-authority);
+     border-color: var(--branding);
      background-color: var(--header-normal);
      color: var(--header-normal);
    }
@@ -239,7 +237,7 @@ a.box {
    }
 
    .box:hover {
-     border-color: var(--branding-authority);;
+     border-color: var(--branding);;
    }
 }
 
