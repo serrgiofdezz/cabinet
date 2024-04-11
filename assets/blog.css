@@ -1,15 +1,15 @@
-/* Copyright C 2023 The BBJProjeK Organization */
+/* Copyright C 2024 The BBJProjeK Organization */
 
-.branding_color { /* Set BBJProjeK Main Color */
+.branding_color {
   color: var(--branding);
 }
 
 .entry, .entry_onentry {
-  border-width:2px;
-  border-style:solid;
-  border-color:#C0C0C0;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #C0C0C0;
   padding: 1em;
-  border-radius: 1rem
+  border-radius: 1rem;
 }
 
 .entry:hover {
@@ -44,7 +44,6 @@ h3.entry_title {
   margin-top: 0.4rem;
 }
 
-/*** Dark Mode ***/
 @media (prefers-color-scheme: dark) {
   .branding_color {
     color: var(--branding);

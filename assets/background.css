@@ -1,4 +1,4 @@
-/* Copyright C 2023 The BBJProjeK Organization */
+/* Copyright C 2024 The BBJProjeK Organization */
 
 body {
   background-image: url('img/bck_light.svg');
@@ -6,7 +6,6 @@ body {
   background-size: 140%;
 }
 
-/*** Dark Mode ***/
 @media (prefers-color-scheme: dark) {
    body {
      background-image: url('img/bck_dark.svg');

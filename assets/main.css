@@ -1,4 +1,4 @@
-/* Copyright C 2023 The BBJProjeK Organization */
+/* Copyright C 2024 The BBJProjeK Organization */
 
 html {
   font-size: 100%;
@@ -10,24 +10,35 @@ html {
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: var(--background);
   margin: 5%;
 }
 
+/* Root Classes */
 :root {
-  --branding: #006A8E;
-  --heading: #404040;
   --normal: #202020;
   --secondary: #606060;
+  --heading: #404040;
+  --branding: #006A8E;
+  --branding-hos: #BB1420;
+  --background: #FFFFFF;
   --ffamily: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   --ffamily-code: ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
-
-  /* Temp root classes */
-  --a-color: #202020;
-  --main: #202020;
 }
 
-/* Main layout */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --normal: #FFFFFF;
+    --heading: #CCCCCC;
+    --branding: #48A9C5;
+    --branding-hos: #BB6969;
+    --background: #121212;
+    --header-normal: #202020;
+  }
+}
+
+/* Main Layout */
 h1, h2, h3, h4, a, p, ol, ul {
   font-family: var(--ffamily);
   color: var(--normal);
@@ -42,7 +53,7 @@ h3, h4 {
 }
 
 ol li, ul li {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 ol > li::marker {
@@ -54,13 +65,13 @@ code {
   color: var(--normal);
 }
 
-.secondary {
-  color: var(--secondary);
-}
-
 a:link, a:active, a:visited {
   font-weight: bold;
   color: var(--branding);
+}
+
+.secondary {
+  color: var(--secondary);
 }
 
 /*  Header Section */
@@ -77,17 +88,17 @@ header {
   text-align: center;
   width: 100%;
   margin: 0;
-  color: #FFFFFF;
+  color: var(--background);
   font-weight: bold;
 }
 
 .header-title:hover {
-  color: #FFFFFF;
+  color: var(--background);
 }
 
 a.header-subtitle {
   font-weight: normal;
-  color: #FFFFFF;
+  color: var(--background);
 }
 
 nav {
@@ -110,14 +121,14 @@ nav {
 }
 
 nav a {
-  color: #FFFFFF;
+  color: var(--background);
   text-decoration: none;
   padding: 5px;
   border-radius: 5px;
 }
 
 nav a:hover {
-  background-color: #FFFFFF;
+  background-color: var(--background);
   color: var(--heading);
 }
 
@@ -137,15 +148,15 @@ nav a:hover {
   border-color: var(--branding);
   border-width: 2px;
   border-style: solid;
-  background-color: #FFFFFF;
+  background-color: var(--background);
   color: var(--heading);
 }
 
 a.box {
-  color: #FFFFFF;
+  color: var(--background);
 }
 
-/* Scrollbar */
+/* Scroll Indicator */
 .sbar {
   position: fixed;
   left: 0;
@@ -164,103 +175,12 @@ a.box {
   width: 0%;
 }
 
-/* Misc */
-.utc {
-  align: right;
-}
-
+/* SFP Timers */
 .h2o {
-  color: #BB1420;
+  color: var(--branding-hos);
 }
 
-.h3o {
-  color: #404040;
-}
-
-/*** Dark Mode ***/
-@media (prefers-color-scheme: dark) {
-   body {
-     background-color: #121212;
-   }
-
-   :root {
-     color-scheme: dark;
-     --a-color: #FFFFFF;
-     --normal: #FFFFFF;
-     --header-normal: #202020;
-     --heading: #CCCCCC;
-     --branding: #48A9C5;
-   }
-
-   h1, h2, h3, h4, a, p, code {
-     color: var(--normal);
-   }
-
-   h1, h2, h3, h4 {
-     color: var(--heading);
-   }
-
-   ul.secondary {
-     color: #B7B7B7;
-   }
-
-   .h2o {
-     color: #BB6969;
-   }
-
-   .h3o {
-     color: var(--heading);
-   }
-
-   a:link, a:active, a:visited {
-     color: var(--branding);
-   }
-
-   header, .box {
-     background-color: var(--branding);;
-   }
-
-   nav a {
-     color: var(--normal);
-   }
-
-   nav a:hover {
-     background-color: var(--header-normal);
-     color: var(--normal);
-   }
-
-   .box:hover {
-     border-color: var(--branding);
-     background-color: var(--header-normal);
-     color: var(--header-normal);
-   }
-
-   a.box:hover {
-     color: var(--normal);
-   }
-
-   a.box {
-     color: var(--header-normal);
-   }
-
-   .header-title, .header-subtitle, .box {
-     color: var(--header-normal);
-   }
-
-   .header-title:hover {
-     color: var(--header-normal);
-   }
-
-   a.header-subtitle {
-     color: var(--header-normal);
-   }
-
-   .box:hover {
-     border-color: var(--branding);;
-   }
-}
-
-/* Animations for fading in and out each letter */
+/* Fading in and out animation */
 .header-title span {
   animation: fadeInOut 0.2s forwards;
   opacity: 0;
