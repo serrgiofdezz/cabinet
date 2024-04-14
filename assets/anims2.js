@@ -1,13 +1,13 @@
 const phrases = [
   "It's too late to apologize",
-  "Girl I got ya so high, and I know u like",
+  "Please be patient with me",
   "U look so proud standing there, with a frown and a cigarette",
   "No teardrops on the dance floor, not tonight",
   "I can't live, with or without you",
-  "I was doing fine without ya...till i saw ur face..."
+  "So much to do and not enough time...",
+  "This girl been stressin' me"
 ];
 
-// Select a random phrase from the array
 const randomIndex = Math.floor(Math.random() * phrases.length);
 const selectedPhrase = phrases[randomIndex];
 
