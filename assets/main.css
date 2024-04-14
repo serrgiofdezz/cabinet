@@ -65,7 +65,7 @@ code {
   color: var(--normal);
 }
 
-a:link, a:active, a:visited {
+a:link, a:visited {
   font-weight: bold;
   color: var(--branding);
 }
