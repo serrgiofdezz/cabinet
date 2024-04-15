@@ -163,6 +163,49 @@ a.box {
   color: var(--background);
 }
 
+/* Gallery */
+div.gallery {
+  margin: 5px;
+  border: 2px solid #CCCCCC;
+  border-radius: 12px;
+  float: left;
+  position: ;
+  /* width: 100%; */
+}
+
+div.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+div.desc {
+  padding: 15px;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 2000px) {
+  .responsive {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Scroll Indicator */
 .sbar {
   position: fixed;
