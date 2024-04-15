@@ -1,4 +1,34 @@
 /* Copyright C 2023 The BBJProjeK Organization */
 
-a:link, a:visited {color: #1d4f91}
-a.nolink {color: #911d1d; pointer-events: none}
+:root {
+  --link: #1D4F91;
+  --link-alt: #911D1D;
+  --normal: #202020;
+  --background: #FFFFFF;
+  --ffamily-code: "DM Mono",ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --link: #6CACE4;
+    --link-alt: #EB6060;
+    --normal: #202020;
+    --background: #080808;
+  }
+}
+
+body {
+  font-size: 85%;
+  background-color: var(--background);
+  font-family: var(--ffamily-code);
+}
+
+a:link, a:visited {
+  color: var(--link);
+}
+
+a.nolink {
+  color: var(--link-alt);
+  pointer-events: none
+}
