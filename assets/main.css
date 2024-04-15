@@ -17,6 +17,7 @@ body {
 /* Root Classes */
 :root {
   --normal: #202020;
+  --normal-inv: #FFFFFF;
   --secondary: #606060;
   --heading: #404040;
   --branding: #006A8E;
@@ -30,6 +31,7 @@ body {
   :root {
     color-scheme: dark;
     --normal: #FFFFFF;
+    --normal-inv: #202020;
     --heading: #CCCCCC;
     --branding: #48A9C5;
     --branding-hos: #BB6969;
@@ -63,6 +65,11 @@ ol > li::marker {
 code {
   font-family: var(--ffamily-code);
   color: var(--normal);
+}
+
+::selection {
+  color: var(--normal-inv);
+  background: var(--branding);
 }
 
 a:link, a:visited {
