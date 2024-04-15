@@ -22,10 +22,10 @@ var template = `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
     <li>Previous message (by thread): <a href="/pipermail">[Ticket] ##PREVIOUS_TITLE##</a>
     <li>
       <b>Messages ordered by:</b>
-      <a href="/">[ date ]</a>
-      <a href="/">[ thread ]</a>
-      <a href="/">[ subject ]</a>
-      <a href="/">[ author ]</a>
+      <a href="#date">[ date ]</a>
+      <a href="#thread">[ thread ]</a>
+      <a href="#subject">[ subject ]</a>
+      <a href="#author">[ author ]</a>
     </li>
   </ul>
   <hr>
@@ -43,10 +43,10 @@ var template = `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
     <li>Previous message (by thread): <a href="/pipermail">[Ticket] ##PREVIOUS_TITLE##</a></li>
     <li>
       <b>Messages ordered by:</b>
-      <a href="/">[ date ]</a>
-      <a href="/">[ thread ]</a>
-      <a href="/">[ subject ]</a>
-      <a href="/">[ author ]</a>
+      <a href="#date">[ date ]</a>
+      <a href="#thread">[ thread ]</a>
+      <a href="#subject">[ subject ]</a>
+      <a href="#author">[ author ]</a>
     </li>
   </ul>
   <hr><br>
