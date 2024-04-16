@@ -18,7 +18,6 @@ body {
 :root {
   --normal: #202020;
   --normal-inv: #FFFFFF;
-  --secondary: #606060;
   --heading: #404040;
   --branding: #006A8E;
   --branding-hos: #BB1420;
@@ -77,8 +76,8 @@ a:link, a:visited {
   color: var(--branding);
 }
 
-.secondary {
-  color: var(--secondary);
+img {
+  border-radius: 10px;
 }
 
 /*  Header Section */
@@ -161,43 +160,6 @@ nav a:hover {
 
 a.box {
   color: var(--background);
-}
-
-/* Gallery */
-div.gallery {
-  margin: 5px;
-  border: 2px solid #CCCCCC;
-  border-radius: 12px;
-  float: left;
-  position: ;
-  /* width: 100%; */
-}
-
-div.gallery img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-div.desc {
-  padding: 15px;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 2000px) {
-  .responsive {
-    width: 45%;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
 }
 
 .clearfix:after {
