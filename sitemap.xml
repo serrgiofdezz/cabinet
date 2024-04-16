@@ -55,34 +55,46 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/</loc>
+    <lastmod>2024-04-16</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/azuresmoke/</loc>
     <lastmod>2024-04-14</lastmod>
     <changefreq>never</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/buttbook/</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>never</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/cerrodelperro/</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>never</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/la-dehesa/</loc>
+    <lastmod>2024-04-16</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/myresionline/</loc>
     <lastmod>2024-04-15</lastmod>
     <changefreq>never</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/</loc>
     <lastmod>2024-03-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/independence-pop-fm/</loc>
