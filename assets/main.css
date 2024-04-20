@@ -168,25 +168,6 @@ a.box {
   clear: both;
 }
 
-/* Scroll Indicator */
-.sbar {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
-
-.pc {
-  width: 100%;
-  height: 6px;
-}
-
-.pb {
-  height: 6px;
-  background: var(--branding);
-  width: 0%;
-}
-
 /* SFP Timers */
 .h2o {
   color: var(--branding-hos);
