@@ -1,7 +1,7 @@
 # Cabinet
-Sergio's Personal Cabinet. A really lightweight and static html5 page for my personal notes, posts and information
+Sergio's Personal Cabinet. A lightweight and static html5 page for personal notes, posts and misc documentation
 
-## Serving.
+## Serving
 Install npm dependencies:
 ```
 npm install
