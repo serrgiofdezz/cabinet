@@ -24,6 +24,10 @@ body {
   font-family: var(--ffamily-code);
 }
 
+pre {
+  font-family: var(--ffamily-code);
+}
+
 a:link, a:visited {
   color: var(--link);
 }
