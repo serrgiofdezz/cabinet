@@ -31,7 +31,8 @@ a.entry_clickable {
 
 .entry_title {
   padding-top: 0px;
-  margin-bottom: 0px
+  margin-bottom: 0px;
+  font-weight: 500;
 }
 
 h2.entry_title {
