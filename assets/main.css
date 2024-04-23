@@ -49,6 +49,10 @@ h1, h2, h3, h4 {
   color: var(--heading);
 }
 
+h1 {
+  font-size: 2.26em;
+}
+
 h3, h4 {
   font-style: italic;
 }
