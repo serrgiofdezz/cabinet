@@ -11,8 +11,8 @@ body {
   --branding: #006A8E;
   --normal: #121212;
   --heading: #404040;
-  --ffamily: "DM Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  --ffamily-code: "DM Mono",ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  --ffamily: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --ffamily-code: ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
 .card {
@@ -95,7 +95,7 @@ input::placeholder {
   color: #80868b;
 }
 
-span {
+span, code {
   font-family: var(--ffamily-code);
 }
 
