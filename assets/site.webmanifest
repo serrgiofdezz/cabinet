@@ -1,12 +1,12 @@
 {
     "name": "Personal Cabinet",
     "short_name": "Cabinet",
-    "description": "Sergio's Unorganized Cabinet",
+    "description": "Sergio's Personal Cabinet",
     "display": "standalone",
     "start_url": "/",
     "id": "/",
-    "theme_color": "#005397",
-    "background_color": "#ffffff",
+    "theme_color": "#006A8E",
+    "background_color": "#FFFFFF",
     "orientation": "portrait",
     "icons": [
         {
