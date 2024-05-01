@@ -55,6 +55,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://cabinet.bbjprojek.org/blog/entries/2024/05/01/bbjprojek-sfp-chapter3</loc>
+    <lastmod>2024-05-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/</loc>
     <lastmod>2024-04-16</lastmod>
     <changefreq>never</changefreq>
@@ -189,6 +195,12 @@
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc5/</loc>
     <lastmod>2024-03-29</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc6/</loc>
+    <lastmod>2024-05-01</lastmod>
     <changefreq>never</changefreq>
     <priority>0.4</priority>
   </url>
