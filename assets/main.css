@@ -85,8 +85,8 @@ img {
 }
 
 button {
-  color: var(--normal);
-  background-color: #E2E5E8;
+  color: var(--normal-inv);
+  background-color: var(--branding);
   font-family: var(--ffamily);
   font-size: inherit;
   margin-right: 6px;
@@ -95,7 +95,7 @@ button {
   padding-left: 30px;
   padding: 10px;
   border: none;
-  border-radius: 6px;
+  border-radius: 10px;
   outline: 1px;
 }
 
@@ -219,16 +219,5 @@ a.box {
   }
   100% {
     opacity: 1;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-
-  button {
-    background-color: #252525;
-  }
-
-  button:hover {
-    background: #323232;
   }
 }
