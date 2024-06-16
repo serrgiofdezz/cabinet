@@ -56,7 +56,10 @@
   </ul>
   <p>The territorial scope, called Regulated Parking Service Area (SER Area), is subdivided into neighborhoods. You can check if an address is within the regulated area.</p>
 
-  <iframe src="https://geoportal.madrid.es/IDEAM_WBGEOPORTAL/visor_ide.iam?ArcGIS=https%3A%2F%2Fsigma.madrid.es%2Fhosted%2Frest%2Fservices%2FGEOPORTAL%2FSERVICIO_DE_ESTACIONAMIENTO_REGULADO%2FMapServer&amp;zoom=12&amp;extent=-430115.9176%2C4920392.3084%2C-393426.1441%2C4938144.8082%2C102100" frameborder="0" scrolling="no" width="100%" height="600"></iframe>
+  <button id="showiframe">Show External Iframe</button>
+  <div id="iframeContainer">
+    <iframe src="https://geoportal.madrid.es/IDEAM_WBGEOPORTAL/visor_ide.iam?ArcGIS=https%3A%2F%2Fsigma.madrid.es%2Fhosted%2Frest%2Fservices%2FGEOPORTAL%2FSERVICIO_DE_ESTACIONAMIENTO_REGULADO%2FMapServer&amp;zoom=12&amp;extent=-430115.9176%2C4920392.3084%2C-393426.1441%2C4938144.8082%2C102100" frameborder="0" scrolling="no" width="100%" height="600"></iframe>
+  </div>
 
   <h2 id="spaces">Spaces and Differentiated Areas of the Regulated Parking Service</h2>
   <p>There are different types of places, <b>green</b>, <b>blue</b>, <b>mixed</b> and <b>high turnover</b>, as well as two Differentiated Areas, for deterrent use and for use for socio-sanitary reasons. Consult the associated documentation for the plans with the delimitation of the different typologies. and areas. You can also consult the open data set “SER Regulated Parking Service Zones”</p>
@@ -95,7 +98,6 @@
   <h2 id="further-reading">Further Reading</h2>
   <ul>
     <li><a href="/docs/authority/buttbook/">ButtBook Social Networking</a></li>
-    <li><a href="/docs/authority/cerrodelperro/">Cerro del Perro Wine</a></li>
     <li><a href="/docs/authority/azuresmoke/">AzureSmoke Cigarettes</a></li>
     <li><a href="/docs/authority/radio/the-labs-x-fm-001/">The Labs X FM Radio</a></li>
   </ul>
@@ -105,6 +107,7 @@
   <a>Copyright C 2024 The BBJProjeK Organization</a>
 
   <!-- Scripts -->
+  <script src="/assets/iframer.js" async=""></script>
   <script src="/assets/lazysizes.min.js" async=""></script>
 </body>
 </html>
