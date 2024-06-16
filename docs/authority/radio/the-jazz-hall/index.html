@@ -112,7 +112,10 @@
   </ol>
 
   <h2>Online Streaming</h2>
-  <iframe style="border-radius:12px" data-src="https://open.spotify.com/embed/playlist/6XxUEo8K6dJIbuAOAotFgr?utm_source=generator" class="lazyload" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <button id="showiframe">Show Spotify Playlist</button>
+  <div id="iframeContainer">
+    <iframe style="border-radius:12px" data-src="https://open.spotify.com/embed/playlist/6XxUEo8K6dJIbuAOAotFgr?utm_source=generator" class="lazyload" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
 
   <p><i><a href="https://drive.google.com/file/d/1spvRJSNwrIvAMx-mmADe3wX9Kqu5S6ac/view?usp=sharing">Download The Jazz Hall in MP3 format (320kbps · 2h 24m 43s)</a></i></p>
 
@@ -145,6 +148,7 @@
   <a>Copyright C 2024 The BBJProjeK Organization</a>
 
   <!-- Scripts -->
+  <script src="/assets/iframer.js" async=""></script>
   <script src="/assets/lazysizes.min.js" async=""></script>
 </body>
 </html>

@@ -84,6 +84,29 @@ img {
   border-radius: 10px;
 }
 
+button {
+  color: var(--normal);
+  background-color: #E2E5E8;
+  font-family: var(--ffamily);
+  font-size: inherit;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  outline: 1px;
+}
+
+button:hover {
+  background: #9b9b9b;
+}
+
+#iframeContainer {
+  display: none;
+}
+
 /*  Header Section */
 header {
   background-color: var(--branding);
@@ -196,5 +219,16 @@ a.box {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+  button {
+    background-color: #252525;
+  }
+
+  button:hover {
+    background: #323232;
   }
 }

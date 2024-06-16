@@ -121,7 +121,10 @@
   </ol>
 
   <h2>Online Streaming</h2>
-  <iframe style="border-radius:12px" data-src="https://open.spotify.com/embed/playlist/2Y5PPkiwZvpfuaiuejceTu?utm_source=generator" class="lazyload" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <button id="showiframe">Show Spotify Playlist</button>
+  <div id="iframeContainer">
+    <iframe style="border-radius:12px" data-src="https://open.spotify.com/embed/playlist/2Y5PPkiwZvpfuaiuejceTu?utm_source=generator" class="lazyload" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
 
   <!-- <p><i><a href="https://drive.google.com/file/d/1V9DZGI43KU1Ul8zlu0OZt28dp-ckjIXF/view?usp=sharing">Download Urban Underground FM in MP3 format (~215kbps · 1h 39m 23s)</a></i></p> -->
 
@@ -150,6 +153,7 @@
   <a>Copyright C 2024 The BBJProjeK Organization</a>
 
   <!-- Scripts -->
+  <script src="/assets/iframer.js" async=""></script>
   <script src="/assets/lazysizes.min.js" async=""></script>
 </body>
 </html>

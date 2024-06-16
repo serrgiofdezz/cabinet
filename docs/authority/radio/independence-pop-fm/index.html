@@ -137,8 +137,11 @@
   </ul>
 
   <h2>Online Streaming</h2>
-  <iframe style="border-radius:12px" data-src="https://open.spotify.com/embed/playlist/5meU521T9zQMfxmqXSsPm0?utm_source=generator" class="lazyload" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
+  <button id="showiframe">Show Spotify Playlist</button>
+  <div id="iframeContainer">
+    <iframe style="border-radius:12px" data-src="https://open.spotify.com/embed/playlist/5meU521T9zQMfxmqXSsPm0?utm_source=generator" class="lazyload" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+  
   <p><i><a href="https://drive.google.com/file/d/1NKO7VyyrDgb2VrgJQ247OkTkT8fv7HzP/view?usp=sharing">Download Independence POP FM in MP3 format (2h 55m 17s)</a></i></p>
 
   <h2 id="prominent-appearances">Prominent Appearances</h2>
@@ -198,6 +201,7 @@
   <a>Copyright C 2024 The BBJProjeK Organization</a>
 
   <!-- Scripts -->
+  <script src="/assets/iframer.js" async=""></script>
   <script src="/assets/lazysizes.min.js" async=""></script>
 </body>
 </html>

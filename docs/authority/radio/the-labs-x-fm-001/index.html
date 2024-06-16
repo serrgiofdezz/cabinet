@@ -134,7 +134,11 @@
   </ul>
 
   <h2 id="online-streaming">Online Streaming</h2>
-  <iframe style="border-radius:12px" data-src="https://open.spotify.com/embed/playlist/4B46f2a757VHVp6aRoNtzE?utm_source=generator" class="lazyload" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+  <button id="showiframe">Show Spotify Playlist</button>
+  <div id="iframeContainer">
+    <iframe style="border-radius:12px" data-src="https://open.spotify.com/embed/playlist/4B46f2a757VHVp6aRoNtzE?utm_source=generator" class="lazyload" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
 
   <p><i><a href="https://pixeldrain.com/u/SXjYMVCF">Download The Labs X FM in MP3 format (320kbps · 2h 24m 43s)</a></i></p>
 
@@ -151,7 +155,6 @@
     <li>Biblioteca Municipal Jorge Luis Borges</li>
     <li><a href="https://osm.org/node/10706872551">BBJProjeK Headquarters</a></li>
   </ul>
-
 
   <h2 id="trivia">Trivia</h2>
   <ul>
@@ -197,6 +200,7 @@
   <a>Copyright C 2024 The BBJProjeK Organization</a>
 
   <!-- Scripts -->
+  <script src="/assets/iframer.js" async=""></script>
   <script src="/assets/lazysizes.min.js" async=""></script>
 </body>
 </html>
