@@ -13,7 +13,7 @@
 }
 
 .entry:hover {
-    background-color: rgba(0, 106, 142, 0.2);
+  background-color: var(--branding-op);
 }
 
 a.entry_clickable {
@@ -43,18 +43,4 @@ h3.entry_title {
   font-style: italic;
   font-size: 1em;
   margin-top: 0.4rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  .branding_color {
-    color: var(--branding);
-  }
-
-  .entry {
-    border-color: #848C99;
-  }
-
-  .entry:hover {
-    background-color: rgba(72, 169, 197, 0.2);
-  }
 }

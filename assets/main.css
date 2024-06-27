@@ -20,6 +20,7 @@ body {
   --normal-inv: #FFFFFF;
   --heading: #404040;
   --branding: #006A8E;
+  --branding-op: #006A8E20;
   --branding-hos: #BB1420;
   --background: #FFFFFF;
   --background-alt: #E8E8E8;
@@ -34,6 +35,7 @@ body {
     --normal-inv: #202020;
     --heading: #CCCCCC;
     --branding: #48A9C5;
+    --branding-op: #48A9C530;
     --branding-hos: #BB6969;
     --background: #121212;
     --background-alt: #161B22;
