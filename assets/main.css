@@ -72,6 +72,17 @@ code {
   color: var(--normal);
 }
 
+pre code {
+  background-color: var(--background-alt);
+  border-radius: 10px;
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+  white-space: pre;
+  line-height: 1.55;
+  overflow-x: scroll;
+}
+
 ::selection {
   color: var(--normal-inv);
   background: var(--branding);
