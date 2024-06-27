@@ -200,7 +200,7 @@ a.box {
 }
 
 /* SFP Timers */
-.h2o {
+.h2o, .h3o {
   color: var(--branding-hos);
 }
 
