@@ -4,7 +4,7 @@ var template = `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="Index" href="/pipermail">
+  <link rel="Index" href="/xaspos">
   <link rel="made" href="mailto:support%40bbjprojek.org?Subject=Re%3A%20%5BTicket%5D%20%3D%3">
   <meta name="robots" content="index,nofollow">
   <title>[Ticket] ##TITLE##</title>
@@ -19,7 +19,7 @@ var template = `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
   <br>
   <i>##DATE##</i>
   <ul>
-    <li>Previous message (by thread): <a href="/pipermail">[Ticket] ##PREVIOUS_TITLE##</a>
+    <li>Previous message (by thread): <a href="/xaspos">[Ticket] ##PREVIOUS_TITLE##</a>
     <li>
       <b>Messages ordered by:</b>
       <a href="#date">[ date ]</a>
@@ -40,7 +40,7 @@ var template = `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
   <!--endarticle-->
   <hr>
   <ul>
-    <li>Previous message (by thread): <a href="/pipermail">[Ticket] ##PREVIOUS_TITLE##</a></li>
+    <li>Previous message (by thread): <a href="/xaspos">[Ticket] ##PREVIOUS_TITLE##</a></li>
     <li>
       <b>Messages ordered by:</b>
       <a href="#date">[ date ]</a>
