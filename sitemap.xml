@@ -247,24 +247,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/internal/copyright</loc>
-    <lastmod>2020-01-01</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://cabinet.bbjprojek.org/internal/operations-working-group</loc>
-    <lastmod>2020-01-01</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://cabinet.bbjprojek.org/internal/data-working-group</loc>
-    <lastmod>2020-01-01</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
     <loc>https://cabinet.bbjprojek.org/projects/albumposters/</loc>
     <lastmod>2023-11-16</lastmod>
     <changefreq>monthly</changefreq>
