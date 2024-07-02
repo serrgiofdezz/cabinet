@@ -18,6 +18,13 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+  word-wrap: break-word;
+  max-width: 100%;
+  overflow-y: scroll;
+}
+
 body {
   font-size: 85%;
   background-color: var(--background);
@@ -26,6 +33,10 @@ body {
 
 pre {
   font-family: var(--ffamily-code);
+}
+
+iframe {
+  max-width: 100%
 }
 
 a:link, a:visited {
