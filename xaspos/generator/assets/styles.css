@@ -1,22 +1,32 @@
 /* Copyright C 2024 The BBJProjeK Organization */
 
-html,
-body {
-  width: 100%;
-  margin: 0;
-  background: #ffffff;
-}
-
 :root {
-  --branding: #006A8E;
   --normal: #121212;
   --heading: #404040;
+  --background: #FFFFFF;
+  --branding: #006A8E;
   --ffamily: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   --ffamily-code: ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --normal: #FFFFFF;
+    --heading: #757575;
+    --background: #121212;
+    --branding: #48A9C5;
+  }
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  background: var(--background);
+}
+
 .card {
-  background-color: #ffffff;
+  background-color: var(--background);
   margin: 30px auto 0;
   max-width: 450px;
   padding: 48px 40px 36px;
@@ -44,7 +54,7 @@ h1 {
 }
 
 h4 {
-  color: #757575;
+  color: var(--heading);
   text-align: center;
   font-family: var(--ffamily);
   font-weight: 400;
@@ -69,7 +79,7 @@ input {
   width: 215px;
   height: 20px;
   border-radius: 4px;
-  background-color: #ffffff;
+  background-color: var(--background);
   border: 1px solid #333333;
   color: #var(--normal);;
   padding: 13px 0;
@@ -111,7 +121,7 @@ span, code {
   box-shadow: none;
   width: 96px;
   font-size: 15px;
-  color: #ffffff;
+  color: var(--background);
   padding: 11px 15px;
   border: 0;
   outline: none;
@@ -142,7 +152,7 @@ span, code {
   resize: vertical;
   border-radius: 4px;
   border: 1px solid #333333;
-  background-color: #ffffff;
+  background-color: var(--background);
   color: #var(--normal);;
   outline: none;
   padding: 0;
@@ -166,7 +176,7 @@ a:active {
 /*** Phone sizes ***/
 @media only screen and (max-width: 601px) {
   .card {
-    background-color: fff;
+    background-color: var(--background);
     margin: 5px;
     max-width: 450px;
     padding: 48px 40px 0;
@@ -206,76 +216,5 @@ a:active {
   }
   h4 {
     margin: 40px;
-  }
-}
-
-
-/*** Dark Mode ***/
-@media (prefers-color-scheme: dark) {
-
-  html,
-  body {
-    background: #121212;
-  }
-
-  :root {
-    --a-color: #FFFFFF; /* Define a root variable for primary color */
-    --normal: #FFFFFF;
-    --heading: #CCCCCC;
-    --branding: #6CACE4;
-    --branding: #48A9C5;
-  }
-
-  .card {
-    background-color: #121212;
-  }
-
-  h1 {
-     color: #FFFFFF;
-  }
-
-  h4 {
-    color: #757575;
-    text-align: center;
-    font-weight: 400;
-  }
-
-  input {
-    background-color: #121212;
-    color: #fff;
-  }
-
-  input::placeholder {
-    color: #80868b;
-  }
-
-  #copied {
-    color: #ffffff;
-  }
-
-  #generate {
-    background-color: var(--branding);
-    color: #121212;
-  }
-
-  #generate:hover, #generate:focus {
-    background-color: var(--branding);
-  }
-
-  #output {
-    background-color: #121212;
-    color: #fff
-  }
-
-  a:active {
-    color: #757575;
-  }
-
-  input:focus {
-    border: 2px solid var(--branding);
-  }
-
-  input:focus:required:invalid {
-    border-color: var(--branding);
   }
 }

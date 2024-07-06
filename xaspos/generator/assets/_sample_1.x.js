@@ -5,8 +5,7 @@ var template = `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="Index" href="/xaspos">
-  <link rel="made" href="mailto:support%40bbjprojek.org?Subject=Re%3A%20%5BTicket%5D%20%3D%3">
-  <meta name="robots" content="index,nofollow">
+  <meta name="robots" content="noindex">
   <title>[Ticket] ##TITLE##</title>
 
   <!-- Custom style and CSS -->
@@ -15,8 +14,7 @@ var template = `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 </head>
 <body>
   <h1>[Ticket] ##TITLE##</h1>
-  <b>##AUTHOR_EMAIL##</b>
-  <br>
+  <b>##AUTHOR_EMAIL##</b><br>
   <i>##DATE##</i>
   <ul>
     <li>Previous message (by thread): <a href="/xaspos">[Ticket] ##PREVIOUS_TITLE##</a>
@@ -27,8 +25,7 @@ var template = `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
       <a href="#subject">[ subject ]</a>
       <a href="#author">[ author ]</a>
     </li>
-  </ul>
-  <hr>
+  </ul><hr>
   <!--beginarticle-->
   <pre>
 
@@ -38,8 +35,7 @@ var template = `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
   </pre>
   <!--endarticle-->
-  <hr>
-  <ul>
+  <hr><ul>
     <li>Previous message (by thread): <a href="/xaspos">[Ticket] ##PREVIOUS_TITLE##</a></li>
     <li>
       <b>Messages ordered by:</b>
