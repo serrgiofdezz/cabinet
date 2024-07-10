@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cabinet.bbjprojek.org/</loc>
-    <lastmod>2024-06-06</lastmod>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/about</loc>
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
   </url>
@@ -74,13 +74,13 @@
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/agency/</loc>
-    <lastmod>2024-04-16</lastmod>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/docs/authority/</loc>
-    <lastmod>2024-04-16</lastmod>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
   </url>
@@ -254,7 +254,7 @@
   </url>
   <url>
     <loc>https://cabinet.bbjprojek.org/projects/albumposters/</loc>
-    <lastmod>2023-11-16</lastmod>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
