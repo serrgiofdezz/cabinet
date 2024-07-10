@@ -3,7 +3,7 @@
 
 <html lang="en">
 <head>
-  <title>Page Archive - Sergio's Personal Cabinet</title>
+  <title>Archive - Sergio's Personal Cabinet</title>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,35 +31,28 @@
       font-weight: normal;
     }
 
+    a:link:hover
+    {
+      text-decoration: underline;
+    }
+
     .header-title {
       font-weight: bold !important;
     }
 
     .header-subtitle, .box {
-      color: #FFFFFF !important;
+      color: var(--background) !important;
     }
 
     nav a:hover {
-      background-color: #FFFFFF;
-      color: #404040 !important;
+      background-color: var(--background);
+      color: var(--heading) !important;
     }
-
-    /*** Dark Mode ***/
-    @media (prefers-color-scheme: dark) {
-       .header-subtitle, .box {
-         color: #202020 !important;
-       }
-
-       nav a:hover {
-         background-color: #202020;
-         color: #FFFFFF !important;
-       }
-     }
   </style>
 </head>
 <body>
   <header>
-  <a class="header-title">Sergio's Personal Cabinet · Archive</a>
+  <a class="header-title">Sergio's Personal Archive</a>
   <nav>
     <div class="nav-left">
       <a class="header-subtitle" href="/">← Main</a>
@@ -68,13 +61,12 @@
       <a class="header-subtitle" href="/">Home</a>
     </div>
     <div class="nav-right">
-      <!-- <a class="header-subtitle" href="entries/2024/01/02/teneria_mapping">Latest Entry →</a> -->
     </div>
   </nav>
   </header>
 
   <h1>Page Archive</h1>
-  <p>An attemp to show all html pages from this subdomain (cabinet)</p>
+  <p>An attemp to order and show every html pages from this website</p>
 
   <hr><br>
   <a>L </a><a href="/blog">blog</a><br>
@@ -106,7 +98,7 @@
   <a>L </a><a href="/sitemap.xml">sitemap.xml</a><br>
 
   <br><hr>
-  <a>Updated on: June 30, 2024.</a><br>
+  <a>Updated on: July 10, 2024.</a><br>
   <a>Copyright C 2024 The BBJProjeK Organization</a>
 
 </body>
