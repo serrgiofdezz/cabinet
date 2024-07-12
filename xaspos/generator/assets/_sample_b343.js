@@ -1,16 +1,16 @@
-var template = `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+var template = `<!DOCTYPE html>
 <!-- Copyright C 2024 The BBJProjeK Organization -->
-<html>
+
+<html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="Index" href="/xaspos">
   <meta name="robots" content="noindex">
   <title>[Ticket] ##TITLE##</title>
 
-  <!-- Custom style and CSS -->
-  <style type="text/css">pre { white-space: pre-wrap; }</style>
+  <!-- CSS & Scripts -->
   <link rel="stylesheet" href="/xaspos/main.css" />
+
 </head>
 <body>
   <h1>[Ticket] ##TITLE##</h1>
@@ -22,8 +22,8 @@ var template = `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
       <b>Messages ordered by:</b>
       <a href="#date">[ date ]</a>
       <a href="#thread">[ thread ]</a>
-      <a href="#subject">[ subject ]</a>
       <a href="#author">[ author ]</a>
+      <a href="#topic">[ topic ]</a>
     </li>
   </ul><hr>
   <!--beginarticle-->
@@ -41,11 +41,10 @@ var template = `<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
       <b>Messages ordered by:</b>
       <a href="#date">[ date ]</a>
       <a href="#thread">[ thread ]</a>
-      <a href="#subject">[ subject ]</a>
       <a href="#author">[ author ]</a>
+      <a href="#topic">[ topic ]</a>
     </li>
-  </ul>
-  <hr><br>
+  </ul><br><br>
 </body>
 </html>
 `;
