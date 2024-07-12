@@ -33,6 +33,7 @@ body {
 
 pre {
   font-family: var(--ffamily-code);
+  white-space: pre-wrap;
 }
 
 iframe {
