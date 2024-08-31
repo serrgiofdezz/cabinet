@@ -95,6 +95,13 @@ a:link, a:visited {
   color: var(--branding);
 }
 
+hr.foot {
+  margin-top: 42px;
+  margin-bottom: 16px;
+  border: 2px solid;
+  color: var(--branding);
+}
+
 img {
   border-radius: 10px;
 }
