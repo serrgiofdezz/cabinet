@@ -1,4 +1,4 @@
-/* Copyright C 2024 The BBJProjeK Organization */
+/* Copyright (C) 2024 The BBJProjeK Organization */
 
 html {
   font-size: 100%;
@@ -23,7 +23,6 @@ body {
   --branding-op: #006A8E20;
   --branding-hos: #BB1420;
   --background: #FFFFFF;
-  --background-alt: #E8E8E8;
   --ffamily: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   --ffamily-code: ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
@@ -38,7 +37,6 @@ body {
     --branding-op: #48A9C530;
     --branding-hos: #BB6969;
     --background: #121212;
-    --background-alt: #161B22;
     --header-normal: #202020;
   }
 }
@@ -72,17 +70,6 @@ ol > li::marker {
 code {
   font-family: var(--ffamily-code);
   color: var(--normal);
-}
-
-pre code {
-  background-color: var(--background-alt);
-  border-radius: 10px;
-  display: block;
-  padding-left: 30px;
-  padding-right: 30px;
-  white-space: pre;
-  line-height: 1.55;
-  overflow-x: scroll;
 }
 
 ::selection {
