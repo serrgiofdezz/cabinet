@@ -13,7 +13,7 @@ var template = `<!DOCTYPE html>
 
 </head>
 <body>
-  <h1>[Ticket] ##TITLE##</h1>
+  <h1>[Ticket] ##TITLE##</h1><br>
   <b>##AUTHOR_EMAIL##</b><br>
   <i>##DATE##</i>
   <ul>

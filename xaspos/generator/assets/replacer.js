@@ -19,9 +19,6 @@ function doReplace() {
 		const author = qs('#author').value;
 		const content = qs('#content').value;
     const content_link = ifEmpty(qs('#content_link').value, '/');
-    // const donate_url = ifEmpty(qs('#donate_url').value, 'https://t.me/EvolutionX/');
-    // const xda_url = qs('#xda_url').value;
-    // const kernel_source_url = qs('#kernel_source_url').value;
 
     qs('#output').value =
         template.replace(/##TITLE##/g, title)
@@ -30,9 +27,6 @@ function doReplace() {
 				.replace(/##AUTHOR_EMAIL##/g, author)
 				.replace(/##CONTENT##/g, content)
         .replace(/##CONTENT_LINK##/g, content_link)
-        // .replace(/##DONATE_URL##/g, donate_url)
-        // .replace(/##XDA_URL##/g, xda_url)
-        // .replace(/##KERNEL_SOURCE_URL##/g, kernel_source_url)
         .replace(/@@/g, '\n')
 }
 
