@@ -1,11 +1,10 @@
-/* Copyright C 2023 The BBJProjeK Organization */
+/* Copyright (C) 2024 The BBJProjeK Organization */
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
   --link: #1D4F91;
   --link-alt: #911D1D;
-  --normal: #202020;
   --background: #FFFFFF;
   --ffamily-code: "IBM Plex Mono",ui-monospace,SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
@@ -15,20 +14,17 @@
     color-scheme: dark;
     --link: #6CACE4;
     --link-alt: #EB6060;
-    --normal: #202020;
     --background: #000000;
   }
 }
 
 html {
-  scroll-behavior: smooth;
   word-wrap: break-word;
   max-width: 100%;
-  overflow-y: scroll;
 }
 
 body {
-  font-size: 85%;
+  font-size: 90%;
   background-color: var(--background);
   font-family: var(--ffamily-code);
 }
@@ -38,8 +34,12 @@ pre {
   white-space: pre-wrap;
 }
 
+h1 {
+  margin: 0px;
+}
+
 img, iframe {
-  max-width: 100%
+  max-width: 100%;
 }
 
 a:link, a:visited {
@@ -48,5 +48,5 @@ a:link, a:visited {
 
 a.nolink {
   color: var(--link-alt);
-  pointer-events: none
+  pointer-events: none;
 }
