@@ -31,26 +31,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/blog/entries/2023/07/16/sectoriii_mapping</loc>
-    <lastmod>2023-12-31</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://cabinet.bbjprojek.org/blog/entries/2023/11/01/bbjprojek-sfp-extended</loc>
     <lastmod>2024-03-10</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cabinet.bbjprojek.org/blog/entries/2024/01/02/teneria_mapping</loc>
-    <lastmod>2024-02-04</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cabinet.bbjprojek.org/blog/entries/2024/02/10/my-default-programs</loc>
-    <lastmod>2024-02-10</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
@@ -63,12 +45,6 @@
   <url>
     <loc>https://cabinet.bbjprojek.org/blog/entries/2024/05/01/bbjprojek-sfp-chapter3</loc>
     <lastmod>2024-05-01</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cabinet.bbjprojek.org/blog/entries/2024/06/28/airplane-mode-concept</loc>
-    <lastmod>2024-06-28</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
@@ -151,8 +127,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/non-stop-pop-fm/</loc>
-    <lastmod>2024-01-22</lastmod>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/rabbau/contest24</loc>
+    <lastmod>2024-10-08</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
@@ -241,14 +217,14 @@
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-redpill-fm/</loc>
-    <lastmod>2024-04-22</lastmod>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-labs-x-fm-001/optional-packages/dlc9/</loc>
+    <lastmod>2024-08-04</lastmod>
     <changefreq>never</changefreq>
-    <priority>0.6</priority>
+    <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://cabinet.bbjprojek.org/docs/residencial-los-prismas/</loc>
-    <lastmod>2020-01-01</lastmod>
+    <loc>https://cabinet.bbjprojek.org/docs/authority/radio/the-redpill-fm/</loc>
+    <lastmod>2024-04-22</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
